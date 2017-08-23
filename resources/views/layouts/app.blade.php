@@ -19,7 +19,7 @@
 <body>
     <div class="parallax-container">
         <div class="parallax"><img src="http://bipbap.ru/wp-content/uploads/2017/05/maxresdefault-1.jpg"></div>
-        <nav class="white pad">
+        <nav class="white">
             <div class="nav-wrapper">
                 <a href="#!" class="brand-logo blue-text text-darken-2 notopacity">Logo</a>
                 <a href="#" data-activates="mobile-demo" class="button-collapse text-black notopacity"><i class="material-icons blue-text text-darken-2">menu</i></a>

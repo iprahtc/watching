@@ -4,12 +4,6 @@ body {
 }
 */
 
-.pad {
-    padding-left: 4%;
-    padding-right: 4%;
-    box-shadow: 0 0 10px rgba(0,0,0,0);
-}
-
 nav ul a {
     color: #1976D2;
 }
@@ -21,5 +15,11 @@ li .notopacity {
 
 
 nav {
+    padding-left: 4%;
+    padding-right: 4%;
+    box-shadow: 0 0 10px rgba(0,0,0,0);
     opacity: .8;
+}
+.auth {
+    width: 40%; padding-top: 20px;
 }
