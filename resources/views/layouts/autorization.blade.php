@@ -2,7 +2,7 @@
 <div class="modal auth" id="modal1" style="">
     <div class="container">
         <div class="row">
-            <form class="col s12" action="">
+            <form class="col s12" action="#">
                 <div class="row">
                     <div class="input-field col s12">
                         <i class="material-icons prefix">account_circle</i>
@@ -11,12 +11,12 @@
                     </div>
                     <div class="input-field col s12">
                         <i class="material-icons prefix">lock</i>
-                        <input id="icon_telephone" type="tel" class="validate">
-                        <label for="icon_telephone">Пароль</label>
+                        <input id="icon_lock" type="password" class="validate">
+                        <label for="icon_lock">Пароль</label>
                     </div>
                 </div>
                 <div>
-                    <input class="waves-effect waves-light btn" type="submit" value="Войти">
+                    <input class="waves-effect waves-light btn btncolor" type="submit" value="Войти">
                 </div>
             </form>
         </div>

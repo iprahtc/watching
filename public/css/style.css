@@ -9,7 +9,10 @@ nav {
     padding-right: 4%;
     height: 0px;
 }
+
 .auth {
+    opacity: 0.9 !important;
     min-width: 350px;
-    width: 40%; padding-top: 20px;
+    width: 40%;
+    padding: 20px 0;
 }
