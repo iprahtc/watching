@@ -16,7 +16,7 @@
                     </div>
                 </div>
                 <div>
-                    <input class="waves-effect waves-light btn light-green" type="submit" value="Войти">
+                    <input class="waves-effect waves-light btn" type="submit" value="Войти">
                 </div>
             </form>
         </div>
