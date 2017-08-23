@@ -1,0 +1,25 @@
+/*
+body {
+    background-color: #d7ccc8;
+}
+*/
+
+.pad {
+    padding-left: 4%;
+    padding-right: 4%;
+    box-shadow: 0 0 10px rgba(0,0,0,0);
+}
+
+nav ul a {
+    color: #1976D2;
+}
+
+
+.notopacity {
+    opacity: 1 !important;
+}
+
+
+nav {
+    opacity: 0.5;
+}
