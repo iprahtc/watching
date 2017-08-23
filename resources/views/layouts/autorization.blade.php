@@ -1,8 +1,8 @@
 <!-- Modal Structure -->
-<div class="modal" id="modal1" style="width: 40%; padding-top: 20px;">
+<div class="modal auth" id="modal1" style="">
     <div class="container">
         <div class="row">
-            <form class="col s12">
+            <form class="col s12" action="">
                 <div class="row">
                     <div class="input-field col s12">
                         <i class="material-icons prefix">account_circle</i>
