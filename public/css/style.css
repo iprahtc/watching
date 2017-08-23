@@ -1,25 +1,15 @@
-/*
-body {
-    background-color: #d7ccc8;
+
+.btncolor {
+    opacity: 0.9;
+    background-color: #7CB342;
 }
-*/
-
-nav ul a {
-    color: #1976D2;
-}
-
-
-li .notopacity {
-    background: rgba(124,179,66, 1);
-}
-
 
 nav {
     padding-left: 4%;
     padding-right: 4%;
-    box-shadow: 0 0 10px rgba(0,0,0,0);
-    opacity: .8;
+    height: 0px;
 }
 .auth {
+    min-width: 350px;
     width: 40%; padding-top: 20px;
 }
