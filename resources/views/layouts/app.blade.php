@@ -30,6 +30,7 @@
                     <li><a class="waves-effect waves-light btn notopacity">Главная</a></li>
                     <li><a class="waves-effect waves-light btn notopacity">Фильмы</a></li>
                     <li><a class="waves-effect waves-light btn notopacity">Товары</a></li>
+                    <li><a class="waves-effect waves-light btn notopacity modal-trigger" href="#modal1">Вход</a></li>
                 </ul>
                 <ul class="side-nav" id="mobile-demo">
                     <li><a href="sass.html">Главная</a></li>
@@ -42,6 +43,7 @@
     </div>
     <div class="container">
         @yield('content')
+        @include('layouts.autorization')
     </div>
 
 </body>
