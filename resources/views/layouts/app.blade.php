@@ -13,6 +13,7 @@
             $(document).ready(function() {
                 $(".button-collapse").sideNav();
                 $('.parallax').parallax();
+                $('.carousel').carousel();
             });
         </script>
     </head>
@@ -22,29 +23,74 @@
         <nav class="white">
             <div class="nav-wrapper">
                 <a href="#!" class="brand-logo blue-text text-darken-2 notopacity">Logo</a>
-                <a href="#" data-activates="mobile-demo" class="button-collapse text-black notopacity"><i class="material-icons blue-text text-darken-2">menu</i></a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse text-black notopacity"><i class="material-icons blue-text text-darken-2 ">menu</i></a>
                 <ul class="right hide-on-med-and-down">{{--
                     <li class="active"><a href="sass.html">Главная</a></li>
                     <li><a href="badges.html">Фильмы</a></li>
                     <li><a href="collapsible.html">Товары</a></li>--}}
-                    <li><a class="waves-effect waves-light btn notopacity">Главная</a></li>
-                    <li><a class="waves-effect waves-light btn notopacity">Фильмы</a></li>
-                    <li><a class="waves-effect waves-light btn notopacity">Товары</a></li>
-                    <li><a class="waves-effect waves-light btn notopacity modal-trigger" href="#modal1">Вход</a></li>
+                    <li><a class="waves-effect waves-light btn notopacity btncolor">Главная</a></li>
+                    <li><a class="waves-effect waves-light btn notopacity btncolor">Фильмы</a></li>
+                    <li><a class="waves-effect waves-light btn notopacity btncolor">Товары</a></li>
+                    <li><a class="waves-effect waves-light btn notopacity modal-trigger btncolor" href="#modal1">Вход</a></li>
                 </ul>
                 <ul class="side-nav" id="mobile-demo">
-                    <li><a href="sass.html">Главная</a></li>
-                    <li><a href="badges.html">Фильмы</a></li>
-                    <li><a href="collapsible.html">Товары</a></li>
-                    <li><a href="mobile.html">Вход</a></li>
+                    <li class="btncolor"><a href="sass.html">Главная</a></li>
+                    <li class="btncolor"><a href="badges.html">Фильмы</a></li>
+                    <li class="btncolor"><a href="collapsible.html">Товары</a></li>
+                    <li class="btncolor"><a class="modal-trigger" href="#modal1">Вход</a></li>
                 </ul>
             </div>
         </nav>
+        <div class="carousel">
+            <a class="carousel-item" href="#one!"><img src="https://lorempixel.com/250/250/nature/1"></a>
+            <a class="carousel-item" href="#two!"><img src="https://lorempixel.com/250/250/nature/2"></a>
+            <a class="carousel-item" href="#three!"><img src="https://lorempixel.com/250/250/nature/3"></a>
+            <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/250/250/nature/4"></a>
+            <a class="carousel-item" href="#five!"><img src="https://lorempixel.com/250/250/nature/5"></a>
+        </div>
     </div>
     <div class="container">
         @yield('content')
         @include('layouts.autorization')
     </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
 </body>
 </html>
